@@ -1,0 +1,69 @@
+{
+    "category": "plugins",
+    "display": "Fuzzy Search",
+    "fields": {
+        "AAD": {
+            "caption": "App Type",
+            "editor": "custom_type",
+            "name": "appType",
+            "rank": 0
+        },
+        "AAE": {
+            "caption": "Search Field",
+            "editor": "custom_field_AAD",
+            "field_type_restriction": "text_image_file",
+            "name": "searchField",
+            "rank": 2
+        },
+        "AAF": {
+            "caption": "Source",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "source",
+            "rank": 1,
+            "value": "custom_data_AAD"
+        },
+        "AAH": {
+            "caption": "Search Pattern",
+            "editor": "DynamicValue",
+            "name": "searchPattern",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Threshold",
+            "default_val": 0.6,
+            "editor": "DynamicValue",
+            "name": "threshold",
+            "rank": 4,
+            "value": "number"
+        },
+        "AAK": {
+            "caption": "Find All Matches",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "findAllMatches",
+            "rank": 5,
+            "value": "boolean"
+        },
+        "AAL": {
+            "caption": "Ignore Location",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "ignoreLocation",
+            "rank": 6,
+            "value": "boolean"
+        }
+    },
+    "return_value": {
+        "AAG": {
+            "caption": "Matches",
+            "is_list": true,
+            "name": "matches",
+            "rank": 0,
+            "value": "custom_data_AAD"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

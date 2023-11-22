@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "data (things)"
+    },
+    "description": "Generally speaking, fuzzy searching (more formally known as approximate string matching) is the technique of finding strings that are approximately equal to a given pattern (rather than exactly).",
+    "image": "//meta-l.cdn.bubble.io/f1696424027136x976779754304554900/logo.png",
+    "license": "open_source",
+    "name": "Fuse JS Backend",
+    "sa_node_version": 18
+}
